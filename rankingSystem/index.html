@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="box flex">
+        <div class="input">
+            <span class="head">Select maximum no: </span>
+            <select id="sel">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="container flex">
+            <div class="item">
+                <span class="team">Team A</span>
+                <button class="btn" id="team_a">Add score</button>
+                <div class="score">
+                    <h2 id="score_a">0</h2>
+                </div>
+                <h2 id="rel_texta"></h2>
+            </div>
+            <div class="item">
+                <span class="team">Team B</span>
+                <button class="btn" id="team_b">Add score</button>
+                <div class="score">
+                    <h2 id="score_b">0</h2>
+                </div>
+                <h2 id="rel_textb"></h2>
+            </div>
+        </div>
+        <div class="text">
+            <h2 id="results"></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

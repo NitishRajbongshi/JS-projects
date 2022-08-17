@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box {
+    flex-direction: column;
+    height:500px;
+    margin: 20px;
+    background-color: rgb(242 255 242);
+    padding: 40px 20px;
+}
+
+div.input{
+    background: black;
+    padding: 20px 2px;
+    color: rgb(255 255 255);
+    font-weight: bold;
+    width: 90%;
+    margin: 11px auto;
+    text-align: center;
+}
+
+.head {
+    font-size: 20px;
+}
+
+#sel {
+    font-size: 16px;
+}
+
+.container {
+    justify-content: space-between;
+    width: 80%;
+}
+
+.team {
+    font-size: 20px;
+    color: rgb(163, 45, 45);
+}
+
+.btn {
+    border: none;
+    background-color: rgb(166 167 207);
+    padding: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(166, 155, 144);
+}
+
+.score {
+    border: 2px solid black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#results {
+    width: 251px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
